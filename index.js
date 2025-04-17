@@ -49,7 +49,7 @@ app.get("/votes", async (req, res) => {
     try {
         const votes = await voteCollection
         .find()
-        .sort({ createdAt: 1 })
+        .sort({ createdAt: -1 })
         .toArray();
         // Count the number of each vote type
         const counts = {
