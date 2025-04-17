@@ -7,6 +7,7 @@ This is a Node.js server application for the Palestine vote system. The server u
 1. Clone the repository:
 
    ```bash
-   git clone <https://github.com/robiul0278/palestine-vote-server.git>
+   git clone 
+   https://github.com/robiul0278/palestine-vote-server.git
    cd palestine-vote-server
 # palestine-vote-server
